@@ -1,0 +1,30 @@
+# Ignore environment configuration files (contains sensitive data)
+config/.env
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+.env/
+.venv/
+
+# Ignore logs and temporary 
+logs/
+*.log
+*.tmp
+
+# Ignore system files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore VSCode settings (if using VSCode)
+.vscode/
+
+# Ignore any cache files
+.cache/
